@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "La tabla de multiplicar del número $1 es: "
 
 i=1

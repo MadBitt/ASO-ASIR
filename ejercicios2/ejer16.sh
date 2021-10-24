@@ -1,3 +1,4 @@
+#!/bin/bash
 
 read -p "Introduce el nombre del fichero: " fich
 

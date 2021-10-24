@@ -1,3 +1,4 @@
+#!/bin/bash
 
 num="[0-9]"
 let="[a-z A-Z]"
