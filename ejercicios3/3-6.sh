@@ -1,5 +1,7 @@
 #!/bin/bash
 
+while [[ true ]]; do
+	
 
 echo "Copia-a-USB (1)" 
 echo "Copia-a-PC  (2)"
@@ -13,7 +15,7 @@ case $opc in
 		sudo find / -wholename "/home/alumno" -exec cp -r {} /mnt/pendrive/ 2>/dev/null \;
 ;;
 	"2" )
-		sudo find / -wholename "/home/alumno" -exec cp -r /mnt/pendrive/ {} \;
+		sudo find / -wholename "/home" -exec cp -r /mnt/pendrive/alumno/ {} 2>/dev/null\;
 ;;
 	"3" )
 		echo "PC tiene `sudo find / -wholename "/home/alumno" -exec ls -R {} 2>/dev/null \; | wc -l` archivos"
@@ -25,3 +27,4 @@ case $opc in
 ;;
 	esac
 
+done
