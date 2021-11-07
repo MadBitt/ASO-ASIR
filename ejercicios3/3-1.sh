@@ -9,16 +9,16 @@ let div=$pri/$seg
 
 
 case $op in
-	suma )
+	[Ss]uma )
 		echo "El resultado de la operación de $op con los operadores $pri y $seg es $suma"
 ;;
-	resta )
+	[Rr]esta )
 		echo "El resultado de la operación de $op con los operadores $pri y $seg es $resta"
 ;;
-	mult )
+	[m]ult )
 		echo "El resultado de la operación de $op con los operadores $pri y $seg es $mult"
 ;;
-	div )
+	[Dd]iv )
 		echo "El resultado de la operación de $op con los operadores $pri y $seg es $div"
 ;;
 esac
